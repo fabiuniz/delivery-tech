@@ -238,7 +238,7 @@ A pasta `templates/` espelha o diretório final do projeto:
 
 ## 💡 Frase de Engajamento
 
-> "Automatizar processos repetitivos não é apenas uma questão de eficiência técnica, mas uma estratégia fundamental para liberar o potencial criativo da equipe de desenvolvimento, permitindo foco absoluto na entrega de valor real ao negócio e na excelência da arquitetura de software. Agradeço imensamente o privilégio desta jornada de aprendizado e compartilhamento tecnológico ao lado da comunidade e dos parceiros do programa Qualifica São Paulo / Fundação FAT (Turma T9) sob a coordenação de Fabiano Rocha."
+> "Automatizar processos repetitivos não é apenas uma questão de eficiência técnica, mas uma estratégia fundamental para liberar o potencial criativo da equipe de desenvolvimento, permitindo foco absoluto na entrega de valor real ao negócio e na excelência da arquitetura de software. Agradeço imensamente o privilégio desta jornada de aprendizado e compartilhamento tecnológico ao lado da comunidade e dos parceiros do programa Qualifica São Paulo / Fundação FAT (Turma T9) sob a coordenação da Prof. Carla Panegocci."
 
 ---
 
