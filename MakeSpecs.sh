@@ -74,8 +74,29 @@ Você é a IA principal de engenharia e gestão de projetos responsável por des
 3. **Padrão de Resposta:** Sempre que o usuário perguntar "O que fazemos agora?", analise o `03-current-sprint.md`, indique a próxima User Story prioritária e forneça o passo a passo técnico (código, testes ou configuração) para executá-la.
 EOF
 
+# 05-jira-export-guide.md
+cat << 'EOF' > .ai-context/05-jira-export-guide.md
+# Guia de Exportação e Importação para o Jira (DeliveryTech)
 
-cat << 'EOF' > .ai-context/04-ai-system-core.md
+## Objetivo
+Instruir a IA a gerar estruturas de dados compatíveis com o assistente de importação via CSV nativo do Jira.
+
+## Mapeamento de Colunas Padrão para o CSV
+Sempre que o usuário solicitar um CSV para o Jira, utilize as seguintes colunas no cabeçalho:
+1. `Issue Type` (Valores aceitos: `Epic`, `Story`, `Task`)
+2. `Summary` (Título curto e objetivo da estória)
+3. `Description` (Descrição detalhada utilizando o padrão de valor ou critérios de aceite)
+4. `Priority` (Valores: `Highest`, `High`, `Medium`, `Low`)
+5. `Labels` (Tags para filtragem, ex: `deliverytech`, `mvp`, `backend`)
+
+## Exemplo de Formato CSV Esperado
+Issue Type,Summary,Description,Priority,Labels
+Epic,Gestão de Usuários,Épico responsável pelo cadastro e autenticação.,High,epico
+Story,Cadastro de Cliente,Como um cliente, eu quero me cadastrar...,High,mvp,backend
+EOF
+
+# 06-ai-system-core.md
+cat << 'EOF' > .ai-context/06-ai-system-core.md
 # SDE - T05433 - Gestão de Projetos de TI (Parte 1) -->
 ## 1. Visão Geral do Programa e Contexto Institucional
 * **Realização:** Fundação FAT (entidade sem fins lucrativos focada em educação e tecnologia) em parceria com o Governo do Estado de São Paulo (SDE) através do programa **Qualifica SP**.
